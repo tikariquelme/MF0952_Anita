@@ -1,0 +1,197 @@
+/* Reset minimo */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    line-height: 1.7em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+h1,h2,h3{
+    padding-bottom: 20px;
+}
+
+p{
+    margin: 10px 0;
+}
+/* UTILIDADES */
+.container{
+    margin:auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+.text-primary{
+    color: #f7c08a;
+}
+.btn{
+    display: inline-block;
+    background-color: #333;
+    color:#fff;
+    padding: 12px 20px;
+    border-radius: 4px;
+    margin-top: 10px;
+
+}
+/* Colores para reutilizar */   
+
+
+.bg-dark{
+    background: #333;
+    color: #fff;
+}
+.bg-light{
+    background: #fff;
+    color: #333;
+}
+.bg-primary{
+    background: #f78616;
+    color:#333;
+}
+.bg-secondary{
+    background: #f3b374;
+    color:#333;
+}
+
+.btn:hover{
+    background-color: #f7c08a;
+    color:#333;
+}
+
+/* paddings para reutilizar */
+.pd-1{
+    padding: 30px 0;
+}
+.pd-2{
+    padding: 20px;
+}
+.pd-3{
+    padding: 30px;
+}
+/* NAVBAR */
+#top-menu{
+    background-color:#333;
+    color: #fff;
+}
+
+#top-menu a {
+    color: #fff;
+}
+
+#top-menu h1{
+    float:left;
+    padding: 20px;
+}
+
+#top-menu ul{
+    list-style: none;
+    float: right;
+}
+
+#top-menu ul li {
+    float: left;
+}
+
+#top-menu ul li a{
+    padding:20px;
+    display: block;
+    text-align: center; 
+}
+
+#top-menu ul li a:hover {
+    background-color: #444;
+    color:#f7c08a;
+}
+#top-menu ul li a.activo{
+    background-color: #444;
+    color:#f7c08a;
+}
+
+/* SHOWCASE */
+#showcase{
+    height: 380px;
+    background: url('../img/Anita\'s\ Deck\ 02.jpg') no-repeat center center/cover;
+}
+
+#showcase .showcase-content{
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#showcase .showcase-content h2{
+    font-size: 2em;
+}
+
+#showcase .showcase-content p{
+    font-size: 1.5em;
+}
+
+/* INfO section */
+#info{
+    height: 320px;
+
+}
+#info .info-img{
+    float:left;
+
+}
+
+#info .info-content{
+    float:right;
+    width: 50%;
+    min-height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+}
+/* features */
+#features{
+    overflow: auto;
+}
+.box{
+    width: 33.3%;
+    float: left;
+    padding: 50PX;
+    text-align: center;
+}
+.box i {
+    font-size: 5em;
+    margin-bottom: 6px;
+}
+
+/* Footer */
+#main-footer{
+    text-align: center;
+    padding: 20px;
+}
+
+.crl{
+    clear: both;
+}
+
+/* ABOUT */
+
+#about-info .info-left{
+    float:left;
+    width: 50%;
+}
+
+#about-info .info-right{
+    float:right;
+    width: 50%;
+}
+#about-info .info-right img{
+display: block;
+    width: 70%;
+    border-radius: 50%;
+}
+
