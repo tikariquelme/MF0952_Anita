@@ -1,0 +1,19 @@
+/* NAVBAR */
+#top-menu{
+
+}
+
+/* Home info */
+#info .info-img{
+    display:none;
+}
+#info .info-content{
+    float: none;
+    width: 100%;
+}
+
+/* About */
+.box{
+    float: none;
+    width: 100%;
+}

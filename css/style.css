@@ -29,6 +29,7 @@ p{
     max-width: 1100px;
     overflow: auto;
     padding: 0 20px;
+    text-align: center;
 }
 .text-primary{
     color: #f7c08a;
@@ -46,7 +47,7 @@ p{
 
 
 .bg-dark{
-    background: #333;
+    background: #b19e9e;
     color: #fff;
 }
 .bg-light{
@@ -54,7 +55,7 @@ p{
     color: #333;
 }
 .bg-primary{
-    background: #f78616;
+    background: #b19e9e;
     color:#333;
 }
 .bg-secondary{
@@ -79,7 +80,7 @@ p{
 }
 /* NAVBAR */
 #top-menu{
-    background-color:#333;
+    background-color:#b19e9e;;
     color: #fff;
 }
 
@@ -108,7 +109,7 @@ p{
 }
 
 #top-menu ul li a:hover {
-    background-color: #444;
+    background-color: #b5a9a9;
     color:#f7c08a;
 }
 #top-menu ul li a.activo{
