@@ -33,7 +33,7 @@ body {
 }
 
 .image {
-  background-image: url("./imagenes/Anita\'s\ Deck\ 02.jpg");
+  background-image: url("../img/Anita\'s\ Deck\ 02.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
